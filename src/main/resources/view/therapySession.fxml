@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.TherapySession">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="708.0" fitWidth="800.0" layoutY="-2.0" opacity="0.38">
+         <image>
+            <Image url="@../images/Individual%20Therapy%20in%20Menlo%20Park,%20CA.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="101.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Appointment Time" wrappingWidth="130.972900390625">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="282.0" layoutY="173.0" prefHeight="26.0" prefWidth="455.0" />
+      <Button layoutX="201.0" layoutY="357.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="65.0" text="Save" textFill="#2207ec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="331.0" layoutY="359.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" text="Reset" textFill="#5e693c">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="460.0" layoutY="360.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" text="Update" textFill="#ac731e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="598.0" layoutY="360.0" mnemonicParsing="false" text="Delete" textFill="#f20707">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text fill="#236c89" layoutX="315.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Therapy Session" wrappingWidth="214.22268676757812">
+         <font>
+            <Font name="Comic Sans MS Italic" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="103.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Session Id" wrappingWidth="91.7728271484375">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="282.0" layoutY="125.0" prefHeight="26.0" prefWidth="66.0" />
+      <Text layoutX="103.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient" wrappingWidth="76.5728759765625">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="282.0" layoutY="222.0" prefHeight="26.0" prefWidth="455.0" />
+      <TableView layoutX="101.0" layoutY="443.0" prefHeight="200.0" prefWidth="634.0">
+         <columns>
+            <TableColumn prefWidth="140.0" text="Session Id" />
+            <TableColumn prefWidth="195.20001220703125" text="Appointment Time" />
+            <TableColumn prefWidth="160.0" text="Therapist" />
+            <TableColumn prefWidth="138.4000244140625" text="Patient" />
+         </columns>
+      </TableView>
+      <Text layoutX="418.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Therapist Id" wrappingWidth="91.7728271484375">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="555.0" layoutY="125.0" prefHeight="26.0" prefWidth="66.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ormcoursework.controller.PatientController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="800.0" opacity="0.29">
+         <image>
+            <Image url="@../images/Navigating%20Mobility%20Challenges%20in%20Dementia%20Care.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="62.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="76.5728759765625">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Number" wrappingWidth="127.77288818359375">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Birth" wrappingWidth="107.77288818359375">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="469.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age" wrappingWidth="60.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" wrappingWidth="76.5728759765625">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sex" wrappingWidth="45.3729248046875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Therapy Program" wrappingWidth="127.77288818359375">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="252.0" layoutY="143.0" prefHeight="26.0" prefWidth="378.0" />
+      <TextField layoutX="252.0" layoutY="189.0" prefHeight="26.0" prefWidth="378.0" />
+      <TextField layoutX="252.0" layoutY="228.0" prefHeight="26.0" prefWidth="378.0" />
+      <TextField layoutX="252.0" layoutY="355.0" prefHeight="26.0" prefWidth="378.0" />
+      <TextField layoutX="252.0" layoutY="270.0" prefHeight="26.0" prefWidth="144.0" />
+      <TextField layoutX="544.0" layoutY="270.0" prefHeight="26.0" prefWidth="86.0" />
+      <TextField layoutX="252.0" layoutY="307.0" prefHeight="26.0" prefWidth="98.0" />
+      <TableView layoutX="62.0" layoutY="484.0" prefHeight="166.0" prefWidth="645.0">
+        <columns>
+          <TableColumn prefWidth="68.0" text="Patient Id" />
+          <TableColumn prefWidth="111.20001220703125" text="Name" />
+            <TableColumn prefWidth="82.39996337890625" text="Address" />
+            <TableColumn prefWidth="91.99993896484375" text="Contact" />
+            <TableColumn prefWidth="70.39996337890625" text="Age" />
+            <TableColumn prefWidth="69.5999755859375" text="Sex" />
+            <TableColumn prefWidth="154.39990234375" text="Program" />
+        </columns>
+      </TableView>
+      <Text fill="#236c89" layoutX="324.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient ">
+         <font>
+            <Font name="Comic Sans MS Italic" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" wrappingWidth="76.5728759765625">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="252.0" layoutY="95.0" prefHeight="26.0" prefWidth="98.0" />
+      <Button layoutX="148.0" layoutY="406.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="65.0" text="Save" textFill="#2207ec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="275.0" layoutY="407.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" text="Reset" textFill="#5e693c">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="408.0" layoutY="407.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" text="Update" textFill="#ac731e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="544.0" layoutY="407.0" mnemonicParsing="false" text="Delete" textFill="#f20707">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
